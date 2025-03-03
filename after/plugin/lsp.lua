@@ -1,3 +1,4 @@
+require('java').setup()
 -- NOTE: to make any of this work you need a language server.
 -- If you don't know what that is, watch this 5 min video:
 -- https://www.youtube.com/watch?v=LaS32vctfOY
@@ -45,6 +46,7 @@ require('lspconfig').lua_ls.setup({
         }
     }
 })
+require('lspconfig').jdtls.setup({})
 
 local cmp = require('cmp')
 

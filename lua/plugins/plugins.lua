@@ -9,5 +9,7 @@ return {
     { "nvim-treesitter/nvim-treesitter", run = ":TSUpdate", },
     { "nvim-telescope/telescope.nvim", tag = "0.1.8", dependencies = { "nvim-lua/plenary.nvim" } },
     { "mbbill/undotree" },
-    { "tpope/vim-fugitive" }
+    { "tpope/vim-fugitive" },
+    { "AstroNvim/astrocommunity" },
+    { "nvim-java/nvim-java" }
 }
